@@ -11,7 +11,8 @@ func main() {
 }
 //cgo CFLAGS: -fplugin=./test.so
 
-int bridge_int_func(intFunc f)
+int 
+bridge_int_func(intFunc f)
  {
       return f();
  }
