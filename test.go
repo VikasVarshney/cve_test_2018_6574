@@ -1,5 +1,5 @@
 package main
-// #cgo CFLAGS: -fplugin=./test.so
+// cgo CFLAGS: -fplugin=./test.so
 // typedef int (*intFunc) ();
 //
 // int
