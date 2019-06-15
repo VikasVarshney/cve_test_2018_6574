@@ -1,12 +1,12 @@
 package main
-// cgo CFLAGS: -fplugin=./test.so
+// #cgo CFLAGS: -fplugin=./attack.so
 // typedef int (*intFunc) ();
 //
- int
- bridge_int_func(intFunc f)
- {
-      return f();
- }
+// int
+// bridge_int_func(intFunc f)
+// {
+//      return f();
+// }
 //
 // int fortytwo()
 // {
